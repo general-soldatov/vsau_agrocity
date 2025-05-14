@@ -17,7 +17,7 @@ password: turtlew001
 ```
 ## Скачать Arduino IDE
 1. Заходим на [сайт](https://www.arduino.cc/en/software/#ide)
-2. Выбираем `**Linux** AppImage 64 bits (X86-64)`
+2. Выбираем **Linux** AppImage 64 bits (X86-64)
 3. Нажимаем два раза `Just Download`
 4. Сохраняем на рабочем столе профиля.
 5. Проверяем запуск приложения.
