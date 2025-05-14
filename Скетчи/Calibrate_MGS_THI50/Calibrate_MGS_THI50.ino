@@ -1,7 +1,3 @@
-#include <TypePlants_inferencing.h>
-
-#include <TypePlants_inferencing.h>
-
 #include <Wire.h>
 #include <MCP3221.h>
 #include <Adafruit_MCP9808.h>
