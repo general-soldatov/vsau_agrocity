@@ -8,6 +8,11 @@ git clone https://github.com/general-soldatov/vsau_agrocity.git
 ```
 3. Представленный репозиторий скопируется в данную папку.
 
+Чтобы подключиться к WiFi аудитории, используйте следующие ключи:
+```
+SSID: TurtleBro
+password: turtlew001
+```
 
 ## Полезные ссылки
 * [Вебинар для создания нейросети](https://disk.yandex.ru/i/zk8tTPONfVNkHg)
