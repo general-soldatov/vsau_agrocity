@@ -48,9 +48,9 @@
 #define HumSoilMin 1165  // Минимальное значение
 
 // Настройка параметров для Телеграм-бота
-#define WIFI_SSID "Keenetic-4304"                                            // Логин WiFi-сети
-#define WIFI_PASSWORD "fTYWpJDh"                                    // Пароль от WiFi-сети
-#define BOT_TOKEN "7374656031:AAHjqKRQajhoHJhnLU3W_G0YC68riOa3tyk"  // Токен Telegram-бота
+#define WIFI_SSID ""                                            // Логин WiFi-сети
+#define WIFI_PASSWORD ""                                    // Пароль от WiFi-сети
+#define BOT_TOKEN ""  // Токен Telegram-бота
 
 
 Adafruit_BME280 bme280;                                       // Объект для работы с датчиком MGS-THP80
