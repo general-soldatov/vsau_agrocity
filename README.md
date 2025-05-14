@@ -31,5 +31,8 @@ https://books.mgbot.ru/MGBotBoards.json
 ```
 4. Теперь переходим в менеджер плат и устанавливаем плату `IoTik 32 от MGBot`
 
+## Работа с роботом
+[Проверка платы управления двигателем](https://gitverse.ru/MGBot/Dynamika-M1/content/master/IR_motor_control.ino)
+
 ## Полезные ссылки
 * [Вебинар для создания нейросети](https://disk.yandex.ru/i/zk8tTPONfVNkHg)
