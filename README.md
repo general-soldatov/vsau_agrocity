@@ -20,7 +20,16 @@ password: turtlew001
 2. Выбираем **Linux** AppImage 64 bits (X86-64)
 3. Нажимаем два раза `Just Download`
 4. Сохраняем на рабочем столе профиля.
-5. Проверяем запуск приложения.
+5. Открываем рабочий стол через терминал и набираем команду:
+```bash
+chmod a+x arduino-ide_2.3.6_Linux_64bit.AppImage
+```
+6. Проверяем запуск приложения.
+7. Также в терминале необходимо установить библиотеку serial
+```bash
+python -m ensurepip 
+python -m pip install pyserial
+```
 
 ## Настройка Arduino IDE
 1. Затем переходим в настройки File -> Settings
@@ -30,6 +39,7 @@ password: turtlew001
 https://books.mgbot.ru/MGBotBoards.json
 ```
 4. Теперь переходим в менеджер плат и устанавливаем плату `IoTik 32 от MGBot`
+5. 
 
 ## Работа с роботом
 [Проверка платы управления двигателем](https://gitverse.ru/MGBot/Dynamika-M1/content/master/IR_motor_control.ino)
