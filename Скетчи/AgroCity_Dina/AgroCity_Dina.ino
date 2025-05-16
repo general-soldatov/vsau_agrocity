@@ -35,9 +35,9 @@
 #define InputCamera_1 5   // Порт камеры сброс
 #define InputCamera_2 23  // Порт камеры счетчик
 
-#define Channel_MGS_THP80 0x77  // Датчик температуры, влажности воздуха и атм. давления
-#define Channel_MGS_L75 0x23    // датчик освещенности
-#define Channel_MGS_THI50 0x18  // датчик температуры, влажности почвы
+#define Channel_MGS_THP80 0x06  // Датчик температуры, влажности воздуха и атм. давления
+#define Channel_MGS_L75 0x07    // датчик освещенности
+#define Channel_MGS_THI50 0x05  // датчик температуры, влажности почвы
 
 // Адрес датчика можно узнат при помощи I2C сканера - https://gitverse.ru/MGBot/Codes/content/master/I2C%20scanner/I2C_scanner.ino
 #define Addres_MGS_THI50 0x4E  // адрес датчик температуры, влажности почвы 
@@ -135,13 +135,11 @@ void setup() {
   mcp3221_5.setNumSamples(DEFAULT_NUM_SAMPLES);
   mcp3221_5.setSmoothing(ROLLING_AVG);
 
-  if (!tempsensor.begin(Channel_MGS_THI50)) {
+  if (!tempsensor.begin(0x18)) {
     Serial.println("Couldn't find MCP9808!");
     Serial.print("Возможные ошибки: ");
     Serial.println("505");
     Serial.println("504");
-    while (1)
-      ;
   }
   tempsensor.setResolution(3);
 
