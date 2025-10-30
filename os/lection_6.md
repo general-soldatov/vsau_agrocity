@@ -38,7 +38,12 @@
 ### Файл как математический объект
 - **Файл**-это упорядоченный набор информации в цифровом виде,у которого есть начало и конец,снабжённый указателем текущей позиции, конце или между элементами набора.
 - Надо файлом допустимы следующие операции:
-   - Чтение(Read) with open(`data.txt`,`rh`) as ("data"):`elems`=data.read(2) `print`("elems")
+   - Чтение(Read)
+  ```python
+  with open('data.txt','rh') as ("data"):
+      elems = data.read(2)
+      print("elems")
+  ```
     - Запись (write) with open(`data.txt`,`wb`)as ("data"):bits/`int`("0xFF12",16)`to bytes`(4,"big")`elems`/(`data.write`)("bits")`print`("bits")
 # Файлы и файловые системы
 ### Файл как математический объект
