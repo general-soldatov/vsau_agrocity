@@ -35,9 +35,9 @@
    - |:перенаправление с помощью конвейера вывода одной команды на вход другой команды.
 ## *Работа с терминалом*
 - *Для вывода сообщения в консоль можно ввести echo<текст>.*
-- *Список доступных команд можно получить с помощью ("help").*
+- *Список доступных команд можно получить с помощью `help`.*
 - *Очисить терминал ("clear").*
-- *Просмотреть текущую дату и время можно с помощью команды ("data").*
+- *Просмотреть текущую дату и время можно с помощью команды `data`.*
 - *Просмотреть историю ("history").*
 - *Просмотреть какой пинг(время получения ответа от сервера) можно с помощью ("ping ya.ru").*
 - `rm`-удаление файла.*
@@ -73,20 +73,6 @@
 - *Команда в ветвелении `-e data.py`роверит существование файла.*
 ## Скрипт:задача
 - Пример рабочего скрипта:
-    -`#!/bin/bash`
-    -`name-"data $dt"`
-    -`if[-d $name]`
-    -`then`
-    -`rm-rf $name`
-    - `fi`
-    - `mkdir $name`
-    - `cd $name`
-    - `for elem in 1 2 3 4 5`
-    - `do`
-    -`echo"l/`m guru of bash-script_$elem">text_$elem.txt
-    -`head "text_$elem.txt"`
-    - `done`
-    - `echo"print('task:',2+2*2)">main.py`
-    - `python main.py`
-    - `cd~/learning`
+
+#!/bin/bash-name-"data $dt"-if[-d $name]-then-rm-rf $name-fi-`mkdir $name`-cd[-d $name]-for `elem` in 1 2 3 4 5-do-echo"/m guru/bash-script_$elem">`text`_$elem.txt-head"text_$elem.txt"-done-`echo`"pritn(`task:`,2+2*2)">mail.py-`python mail.py`-cd~/learning
 ![image](https://image2url.com/images/1761676785304-439a4c62-7004-47e5-9d51-bfa9e182e330.jpg)
